@@ -58,14 +58,14 @@
 
    ```
    cd backend
-   uvicorn main:app --reload
+   uvicorn src.main:app --reload
    ```
 
 2. В другом терминале запустите frontend:
 
    ```
    cd frontend
-   npm start
+   npm run dev
    ```
 
 3. Откройте браузер и перейдите по адресу `http://localhost:5173`
